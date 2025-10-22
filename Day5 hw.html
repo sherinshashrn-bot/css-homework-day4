@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ea79df;
+            
+        }
+        .blog post{
+            background-color: #e74c3c;
+            padding: 25px;
+            max-width: 700px;
+            margin: auto;
+            border: 1px solid salmon;
+            border-radius: 8px;
+        }
+        .title{
+            text-align: center;
+            color: blue;
+        }
+        .author{
+            text-align: center;
+            color: rgb(18, 240, 41);
+            margin-bottom: 20px;
+        }
+        .content::first-line{
+            font-weight: bold;
+        }
+        .content::first-letter{
+            font-size: 200%;
+            color: rgb(243, 7, 7);
+        }
+        .quote{
+            font-style: italic;
+        }
+        .quote::before{
+            content: "";
+            font-size: 40px;
+            color: bisque;
+            position: absolute;
+            left: 10px;
+            top: 5px;
+        }
+        a:link{
+            color: aquamarine;
+            text-decoration: none;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+        h4{
+            display: inline-block;
+            margin-left:10px ;
+        }
+        h4+h4{
+            color: green;
+            font-style: italic;
+        }
+     </style>
+</head>
+<body>
+    <div class="blog post">
+        <h1 class="title">The power of positive thinking</h1>
+        <p class="author">By <a href="#"></a>Guest blogger</p>  
+        <p class="content">A positive attitude deosn't mean ignoring problems it means facing them with hope and confidence.</p>
+        <blockquote class="quote">"Keep your face always toward the sunshine and shadows will fall behind you."</blockquote>
+        <h4>Read next</h4>
+        <h4>Related post</h4>
+        </div>
+    
+</body>
+</html>
